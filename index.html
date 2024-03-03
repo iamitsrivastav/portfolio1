@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+
+    <!-- Link to Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SYFc0bR+G5G5F5fBvB+6D5QpiAiS+g8EL+PnK" crossorigin="anonymous">
+    <!-- Link to Bootstrap CSS from CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+
+    <title>Amit Srivastav - Portfolio</title>
+</head>
+
+<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
+
+    <!-- Header Section -->
+    <header class="bg-success text-white text-center py-5">
+        <div class="container">
+            <h1 style="font-family: 'Cursive', sans-serif;">Amit Srivastav</h1>
+            <p class="lead">App Developer</p>
+        </div>
+    </header>
+    <!-- Navigation Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <!-- Left-aligned Main Navigation Links -->
+            <div>
+                <a class="navbar-brand" href="#">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <!-- Centered Secondary Navigation Items -->
+            <div class="mx-auto">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Right-aligned Links (GitHub, LinkedIn, Email) -->
+            <div class="text-end">
+                <!-- GitHub Link with Font Awesome Icon -->
+                <a class="navbar-link" href="https://github.com/iamitsrivastav" target="_blank">Github
+                    <i class="fab fa-github"></i>
+                </a>
+                <!-- LinkedIn Link with Font Awesome Icon -->
+                <a class="navbar-link" href="https://linkedin.com/in/iamitsrivastav/" target="_blank">Linkedin
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <!-- Email Link with Font Awesome Icon -->
+                <a class="navbar-link" href="amitsrivastavmotihan@gmail.com">Mail
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ... Rest of the code ... -->
+
+
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero text-white text-center">
+        <div class="container">
+            <h2>Welcome to My Colorful Portfolio</h2>
+            <p>Explore my journey, skills, and projects below.</p>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>In the dynamic realm of technology, I am Amit Srivastav, a skilled app developer currently pursuing my
+                passion through comprehensive studies in Information Technology. Proficient in mobile app development, I
+                specialize in crafting innovative and user-centric applications. My expertise extends to iOS and Android
+                development, and I am well-versed in technologies such as React Native. As an enthusiast for
+                cutting-edge solutions, I leverage my technical acumen to create seamless and engaging user experiences.
+                Eager to contribute to the ever-evolving landscape of app development, I am committed to transforming
+                ideas into impactful, functional, and aesthetically pleasing mobile applications.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Mobile App Development</li>
+                <li class="list-group-item">iOS Development</li>
+                <li class="list-group-item">Android Development</li>
+                <li class="list-group-item">React Native</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Quiz App (Kotlin)</h5>
+                    <p class="card-text">Developed a quiz application using Kotlin, providing an interactive platform
+                        for users to test their knowledge.</p>
+                    <!-- Add GitHub link for the project -->
+                    <a href="https://github.com/your-github-username/quiz-app-kotlin" target="_blank"
+                        class="btn btn-primary">GitHub</a>
+                </div>
+            </div>
+            <div class="card mt-3">
+                <div class="card-body">
+                    <h5 class="card-title">Face Anti-Spoofing System (Deep Learning)</h5>
+                    <p class="card-text">Implemented a Face Anti-Spoofing System using deep learning techniques,
+                        enhancing security measures against facial recognition spoofing attempts.</p>
+                    <!-- Add GitHub link for the project -->
+                    <a href="https://github.com/your-github-username/face-anti-spoofing-system" target="_blank"
+                        class="btn btn-primary">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out through the form below or via email .</p>
+            <form id="contactForm">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message:</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Amit Srivastav | Designed with ❤️</p>
+        </div>
+    </footer>
+
+    <!-- Link to Bootstrap JS from CDN (for Bootstrap features like dropdowns, modals, etc.) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Include Font Awesome JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"
+        integrity="sha384-rjs8LrC9lFX/veXp3Q6nMTFKZ9f6rzuE5YFfF4NYP9j5/OGn2l2UqD2ehPDaMYs8"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

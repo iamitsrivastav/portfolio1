@@ -1,0 +1,91 @@
+/* Custom styles for your portfolio */
+
+body {
+    padding-top: 56px; /* Height of fixed navbar */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40; /* Dark background color */
+}
+
+.navbar-brand, .navbar-nav a {
+    color: #ffffff !important; /* White text color */
+}
+
+.navbar-brand:hover, .navbar-nav a:hover {
+    color: #17a2b8 !important; /* Hover color */
+}
+
+/* Sections */
+.section {
+    padding: 60px 0;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to bottom, #343a40, #272a2e); /* Gradient background */
+    padding: 100px 0;
+    color: #ffffff;
+}
+
+/* About Me Section */
+#about {
+    background-color: #f8f9fa; /* Light background color */
+}
+
+/* Skills Section */
+#skills {
+    background-color: #ffffff; /* White background color */
+}
+
+/* Projects Section */
+#projects {
+    background-color: #f8f9fa; /* Light background color */
+}
+
+/* Contact Me Section */
+#contact {
+    background-color: #ffffff; /* White background color */
+}
+
+/* Footer */
+footer {
+    background-color: #343a40; /* Dark background color */
+    color: #ffffff;
+    padding: 15px 0;
+}
+/* ... Existing styles ... */
+
+/* GitHub, LinkedIn, and Email logos */
+.navbar-nav .nav-link img {
+    margin-left: 5px;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-text {
+    font-size: 1.1rem;
+}
+
+.btn-primary {
+    margin-top: 10px;
+}
+/* Links (GitHub, LinkedIn, Email) */
+.navbar-link {
+    color: #d9e2e7;
+    margin-left: 15px;
+    font-size: 18px;
+    transition: color 0.3s ease; /* Smooth transition on color change */
+}
